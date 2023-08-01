@@ -1,0 +1,26 @@
+#image-div{
+    height: 400px; /* Set the desired height of the div */
+    width: 100%; /* Set the desired width of the div */
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1080760661/display_1500/stock-vector-top-world-famous-landmark-for-travel-poster-and-postcard-france-england-spain-italy-in-paper-1080760661.jpg"); /* Replace URL_OF_YOUR_IMAGE with the actual URL of the image you want to use */
+    background-size: cover;
+    float: left;
+    
+}
+.head-1{
+    font-size: 45px;
+    color: yellow;
+    font-style: normal;
+    font-family: cursive;
+    
+}
+.welcome-font{
+    height: 47%;
+    width: 34%;
+    float :right;
+    background-color: rgb(234, 24, 24);
+}
+.cards{
+    width: 100%;
+    height: 43%;
+    background-color: blue;
+}
