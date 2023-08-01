@@ -1,0 +1,41 @@
+#pr_1{
+    height: 80px;
+    width: 300px;
+    background-image: url("https://technicalhub.io/images/technicalhub_logs/GREEN%20TM.png");
+    background-color: lightcyan;
+    background-position: left;
+
+}
+p,span{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(0, 255, 234) blueviolet lightgreen darkgray;
+    border-radius: 50px;
+}
+p{
+    width: fit-content;
+}
+#border_s{
+    width: 160px;
+    height: 85px;
+    border-style: dotted;
+    border-color: brown;
+    
+    
+
+}
+#div_2{
+    width: 160px;
+    height: 85px;
+    background-color: rgb(231, 59, 88);
+}
+#dic_3{
+    width: 150px;
+    height: 95px;
+    box-shadow: 0 0 0 5px firebrick;
+    outline: dashed 5px darkturquoise;
+}

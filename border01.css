@@ -1,0 +1,51 @@
+/* #div-1{
+    width: 50px;
+    height: 75px;
+    background-color: aqua;
+   
+    background-image:
+        radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #c00 15px),
+        radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #c00 15px),
+        radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #c00 15px),
+        radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #c00 15px);
+    
+} */
+
+/* div {
+  width: 20vw;
+  height: 20vw;
+  background: radial-gradient(circle at top left,transparent 4vw, darkblue 4.1vw);
+} */
+/* .box {
+    display:inline-block;
+    width:300px;
+    aspect-ratio:1.5;
+    background: linear-gradient(45deg,blue,red);
+    mask: radial-gradient(30px at 30px 30px,#0000 98%,#000) -30px -30px;
+  } */
+
+.box {
+width:300px;
+height: 150px;
+aspect-ratio:1.5;
+background:
+    radial-gradient(circle 30px at top    left ,#0000 98%,rgb(255, 21, 21)  ) top    left,
+    radial-gradient(circle 30px at top    right,#0000 98%,rgb(255, 21, 21) ) top    right,
+    radial-gradient(circle 30px at bottom left ,#0000 98%,rgb(255, 21, 21)) bottom left,
+    radial-gradient(circle 30px at bottom right,#0000 98%,rgb(255, 21, 21)) bottom right;
+    background-size:51% 51%;
+    background-repeat:no-repeat;
+}
+.box1 {
+    width:150px;
+    height:150px;
+    aspect-ratio:1.5;
+    float: r;
+    background:
+        radial-gradient(circle 30px at top    left ,#0000 98%,rgb(255, 21, 21)  ) top    left,
+        radial-gradient(circle 30px at top    right,#0000 98%,rgb(255, 21, 21) ) top    right,
+        radial-gradient(circle 30px at bottom left ,#0000 98%,rgb(255, 21, 21)) bottom left,
+        radial-gradient(circle 30px at bottom right,#0000 98%,rgb(255, 21, 21)) bottom right;
+        background-size:51% 51%;
+        background-repeat:no-repeat;
+}
